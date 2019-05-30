@@ -1,0 +1,27 @@
+{
+  "name": "rollup-bug",
+  "version": "1.0.0",
+  "description": "nasty bug",
+  "main": "dist/bug.js",
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production",
+    "build-dev": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonPilyak/rollup-image-bug.git"
+  },
+  "devDependencies": {
+    "rollup": "^1.12.4",
+    "rollup-plugin-image": "^1.0.2",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-inline-image": "^0.1.0",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "rollup-plugin-url": "^2.2.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
+  }
+}

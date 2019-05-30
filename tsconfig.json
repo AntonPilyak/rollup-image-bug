@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "es6",
+    "resolveJsonModule" : true,
+    "lib": [
+    	"es2017",
+        "es6",
+        "es2015",
+	    "dom"
+    ],
+    "allowSyntheticDefaultImports" : true,
+    "declaration": true,
+    "downlevelIteration": true
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": ["node_modules"]
+}
